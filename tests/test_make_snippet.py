@@ -19,15 +19,6 @@ def test_make_snippet_first_four_words():
     assert result == "Hello what a day!"
 
 """"
-Given a string of four words
-It returns all four words
-"""
-
-def test_make_snipped_first_five_words():
-    result = make_snippet("Hello what a day!")
-    assert result == "Hello what a day!"
-
-""""
 Given a string of five words
 It returns first five words
 """
